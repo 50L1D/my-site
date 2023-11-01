@@ -1,2 +1,2 @@
-# my-site
-Selfmade site and texts.
+# My-site
+Site made by me with my own texts.
