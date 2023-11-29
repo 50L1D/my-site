@@ -21,3 +21,10 @@
     letter-spacing: 1px;
     color: darkorange;
 }
+
+.table {
+border: 3px solid white;
+letter-spacing: 3px;
+word-spacing: 4px;
+padding: 3px;
+}
