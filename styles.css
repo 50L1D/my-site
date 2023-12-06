@@ -16,15 +16,29 @@
     word-spacing: 4px;
 }
 
+ot{
+    font-size: 16px; color: rgb(189, 138, 190)
+}
+
 .photo{
     font-size: 14px;
     letter-spacing: 1px;
     color: darkorange;
 }
 
-.table {
-border: 3px solid white;
-letter-spacing: 3px;
-word-spacing: 4px;
-padding: 3px;
+table, td, th{
+border: 2px solid white;
+letter-spacing: 2px;
+border-spacing: 0px;
+word-spacing: 3px;
+padding: 8px;
 }
+
+table{
+    padding: 2px;
+}
+
+th{
+    font-weight: 800; 
+}
+
