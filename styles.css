@@ -10,14 +10,14 @@
     font-weight: 700;
 }
 
-.text{
+.text, li{
     font-size: 18px;
     letter-spacing: 1px;
     word-spacing: 4px;
 }
 
 ot{
-    font-size: 16px; color: rgb(189, 138, 190)
+color: rgb(189, 138, 190)
 }
 
 .photo{
