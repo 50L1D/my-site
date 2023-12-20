@@ -1,5 +1,11 @@
 *{
     font-family: Arial, Garamond, serif;
+    max-width: 1080px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 .link{
