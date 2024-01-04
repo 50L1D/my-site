@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
+}
+
+#imgh{
+    padding: 0px;
+    height: 304px;
+    max-width: 150%;
 }
 
 .link{
@@ -58,7 +64,7 @@ th{
     float: left;
     width: 50%;
     padding: 10px;
-    height: 360px;
+    height: 304px;
     color: white;
 
 }
