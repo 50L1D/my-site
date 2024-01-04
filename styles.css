@@ -1,6 +1,7 @@
 *{
     font-family: Arial, Garamond, serif;
     max-width: 1080px;
+    box-sizing: border-box;
 }
 
 img{
@@ -9,9 +10,13 @@ img{
 }
 
 .link{
-    font-size: 22px;
-    color: rgb(76, 76, 186);
+    font-size: 36px;
+    color: rgb(244, 250, 203);
+    text-align: justify;
+
 }
+
+
 .mainpage{
     font-weight: 700;
 }
@@ -32,7 +37,7 @@ color: rgb(189, 138, 190)
     color: darkorange;
 }
 
-table, td, th{
+table, td, th, .head{
 border: 2px solid white;
 letter-spacing: 2px;
 border-spacing: 0px;
@@ -48,3 +53,25 @@ th{
     font-weight: 800; 
 }
 
+.column {
+
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 360px;
+    color: white;
+
+}
+  
+
+.row:after {
+    display: table;
+
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+ 
+    }
+}
