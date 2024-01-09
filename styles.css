@@ -19,7 +19,6 @@ img {
     font-size: 36px;
     color: rgb(244, 250, 203);
     text-align: justify;
-
 }
 
 
@@ -44,11 +43,13 @@ color: rgb(189, 138, 190)
 }
 
 table, td, th, .head{
-border: 2px solid white;
-letter-spacing: 2px;
-border-spacing: 0px;
-word-spacing: 3px;
-padding: 8px;
+    border: 2px solid white;
+    letter-spacing: 2px;
+    border-spacing: 0px;
+    word-spacing: 3px;
+    padding: 8px;
+    text-align: left;
+    position:relative;
 }
 
 table{
