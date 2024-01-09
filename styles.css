@@ -50,6 +50,9 @@ table, td, th, .head{
     padding: 8px;
     text-align: left;
     position:relative;
+    width: 100%;
+    table-layout: fixed;
+    word-wrap: break-word;
 }
 
 table{
